@@ -25,6 +25,9 @@
     <string name="statusbar_title">Icons</string>
     <string name="status_bar_items_summary">Add or remove status bar icons</string>
 
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
     <!-- Nav bar tuner-->
     <string name="navbar_category">Navigation Bar</string>
     <string name="navigation_title">Navigation Bar</string>
