@@ -57,10 +57,10 @@
     <string name="heads_up_time_out_10sec">10 Sekunden</string>
 
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Benachrichtigungen ausbelden</string>
+    <string name="heads_up_snooze_title">Benachrichtigungen ausblenden</string>
     <string name="heads_up_snooze_summary_one_minute">Durch hochwischen einer neuen Benachrichtigung werden alle neuen Berichtigungen von dieser App für 1 Minute deaktiviert.</string>
     <string name="heads_up_snooze_summary">Durch hochwischen einer neuen Benachrichtigung werden alle neuen Berichtigungen von dieser App für <xliff:g id="number">%d</xliff:g> Minuten deaktivert.</string>
-    <string name="heads_up_snooze_disabled_summary">Benachrichtigungen ausbelden ist deaktivert</string>
+    <string name="heads_up_snooze_disabled_summary">Benachrichtigungen ausblenden ist deaktivert</string>
     <string name="heads_up_snooze_1min">1 Minute</string>
     <string name="heads_up_snooze_5min">5 Minuten</string>
     <string name="heads_up_snooze_10min">10 Minuten</string>
