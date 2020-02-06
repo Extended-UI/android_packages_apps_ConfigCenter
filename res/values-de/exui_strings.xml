@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2018 ExtendedUI
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App Title -->
+    <string name="config_center_title">Konfigurationscenter</string>
+
+    <!-- Status bar tuner-->
+    <string name="statusbar_category">Statusleiste</string>
+    <string name="statusbar_title">Symbole</string>
+    <string name="status_bar_items_summary">Statusleistensymbol hinzufügen oder entfernen</string>
+
+    <!-- Nav bar tuner-->
+    <string name="navbar_category">Navigationsleiste</string>
+    <string name="navigation_title">Navigationsleiste</string>
+    <string name="navigation_subtitle">Anpassung des Navigationsleistenlayouts</string>
+    <string name="navbar_invert_layout_title">Layout umkehren</string>
+    <string name="navbar_invert_layout_summary">Verwendet ein umgekehrtes Layout für die Navigationsleisten Buttons</string>
+    <string name="nav_bar_layout">Navigationsleistenlayout</string>
+
+    <!-- Gestures -->
+    <string name="gestures_category">Gesten</string>
+    <string name="double_tap_sleep_lockscreen_title">Doppelt tippen zum ausschalten des Displays</string>
+    <string name="double_tap_sleep_lockscreen_summary">Doppelt auf den Sperrbildschirm tippen um das Smartphone in den Ruhezustand zu versetzen</string>
+    <string name="double_tap_sleep_gesture_title">Doppelt tippen zum ausschalten des Displays</string>
+    <string name="double_tap_sleep_gesture_summary">Doppelt auf die Statusleiste tippen um das Smartphone in den Ruhezustand zu versetzen</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_category">Sperrbildschirm</string>
+    <string name="lockscreen_tuner_title">Sperrbildschrim Shortcuts</string>
+    <string name="lockscreen_tuner_summary">Anpassung des Linken und Rechten Shortcuts auf dem Sperrbildschirm</string>
+
+    <!-- Heads up -->
+    <string name="notifications_category">Benachrichtigungen</string>
+    <string name="heads_up_time_out_title">Ausblenden</string>
+    <string name="heads_up_time_out_summary">Neue Benachrichtigungen werden angezeigt für <xliff:g id="number">%d</xliff:g> Sekunden</string>
+    <string name="heads_up_time_out_2sec">2 Sekunden</string>
+    <string name="heads_up_time_out_4sec">4 Sekunden</string>
+    <string name="heads_up_time_out_5sec">5 Sekunden</string>
+    <string name="heads_up_time_out_6sec">6 Sekunden</string>
+    <string name="heads_up_time_out_8sec">8 Sekunden</string>
+    <string name="heads_up_time_out_10sec">10 Sekunden</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Benachrichtigungen ausbelden</string>
+    <string name="heads_up_snooze_summary_one_minute">Durch hochwischen einer neuen Benachrichtigung werden alle neuen Berichtigungen von dieser App für 1 Minute deaktiviert.</string>
+    <string name="heads_up_snooze_summary">Durch hochwischen einer neuen Benachrichtigung werden alle neuen Berichtigungen von dieser App für <xliff:g id="number">%d</xliff:g> Minuten deaktivert.</string>
+    <string name="heads_up_snooze_disabled_summary">Benachrichtigungen ausbelden ist deaktivert</string>
+    <string name="heads_up_snooze_1min">1 Minute</string>
+    <string name="heads_up_snooze_5min">5 Minuten</string>
+    <string name="heads_up_snooze_10min">10 Minuten</string>
+    <string name="heads_up_snooze_15min">15 Minuten</string>
+    <string name="heads_up_snooze_20min">20 Minuten</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Farbauswahl</string>
+    <string name="press_color_to_apply">Zum Anwenden auf die Farbe drücken</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Setzen</string>
+    <string name="color_default">Standard</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_title">Randbeleuchtung</string>
+    <string name="pulse_ambient_light_summary">Lässt die Seitenränder des Bildschirms bei einer neuen Benachrichtigung aufleuchten</string>
+    <string name="pulse_ambient_light_color_title">Randbeleuchtungsfarbe</string>
+
+    <!-- Smart replies -->
+    <string name="hide_smart_replies_title">Smarte Antworten ausblenden</string>
+    <string name="hide_smart_replies_summary">Smarte Antworten werden ausblenden, um mit neuen Benachrichtigungen Platz auf dem Bildschirm zu sparen</string>
+
+    <!-- Battery light -->
+    <string name="light_settings_header">Benachrichtigungs LED Einstellungen</string>
+    <string name="battery_light_settings">Akku-Ladeleuchte</string>
+    <string name="battery_light_summary">Anpassung für Akku-Leuchte</string>
+    <string name="battery_light_enable">Aktiviert</string>
+    <string name="battery_light_allow_on_dnd_title">Akku-Leuchte in "Bitte nicht Stören"</string>
+    <string name="battery_light_low_blinking_title">Pulsierendes Licht bei schwacherem Akku</string>
+    <string name="battery_light_cat">Benachrichtigungslicht Farbe des Akkus beim Aufladen</string>
+    <string name="battery_light_low_color">Schwacher Akku</string>
+    <string name="battery_light_medium_color">Medium Akku</string>
+    <string name="battery_light_full_color">Fast voller Akku</string>
+    <string name="battery_light_reallyfull_color">Voller (100) Akku</string>
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">FOD Icon-Picker</string>
+    <string name="fod_icon_picker_summary">Wähle dein Lieblings Fingerabdrucksymbol aus</string>
+
+    <!-- FOD icon use wallpaper color -->
+    <string name="fod_wallpaper_color">Hintergrundbildfarbe für FOD-Symbol verwenden</string>
+    <string name="fod_wallpaper_color_summary">Verwendet angepasste primäre Hintergrundfarbe für das FOD-Symbol</string>
+
+    <!-- interface category -->
+    <string name="interface_category">Oberfläche</string>
+
+    <string name="enable_oneui">OneUI</string>
+    <string name="enable_oneui_summary">Zeige Platz über der Einstellungsaktionsleiste für eine Einfachere ein Hand Bedienung\nINFO: Starte die Einstellungsapp neu, um den Effekt zu sehen</string>
+
+    <string name="settings_suggestions">Dashboard suggestions</string>
+    <string name="settings_suggestions_summary">Aktiviert die AOSP Einstellungsvorschläge in den Einstellungen\nINFO: Starte die Einstellungsapp neu, um den Effekt zu sehen</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibration bei Verwendung des Fingersensors zur Authentifizierungen</string>
+    <string name="fprint_sucess_vib_summary">Vibrieren bei erfolgreicher Fingerabdruck-Authentifizierung</string>
+
+    <!-- UI tuner -->
+    <string name="uituner_title">UI Anpassung</string>
+    <string name="uituner_subtitle">Anpassung der Benutzeroberfläche</string>
+    <string name="fod_category">Fingerabdruck auf dem Display</string>
+    <string name="qs_category">Schnelleinstellungen</string>
+    <string name="enable_clear_all_button">Ersetzt den "Alle löschen" Text durch einen nicen Button (beta)</string>
+    <string name="enable_clear_all_button_summary">Zeigt einen "Alle löschen" Button anstelle des Textes in den Schnelleinstellungen an</string>
+    <string name="blur_quicksettings">Blured die Schnelleinstellungen (beta)</string>
+    <string name="blur_quicksettings_subtitle">Blured den Hintergrund der Schnelleinstellungen</string>
+    <string name="new_screenshotui_title">Überarbeitete Screenshot Animation (alpha!)</string>
+    <string name="new_screenshotui_subtitle">Zeigt eine slide in/out Animation anstelle der von AOSP</string>
+    <string name="qs_datausage_title">Datenvolumen verbrauch im qs Header anzeigen</string>
+    <string name="qs_datausage_subtitle">Zeigt den Datenvolumen verbrauch im qs Header der Simkarte</string>
+
+    <!-- Per App aspect Ratio -->
+    <string name="action_save">Speichern</string>
+    <string name="aspect_ratio_category_title">Legacy App Skalierung</string>
+    <string name="aspect_ratio_apps_enabled_title">Höheres Seitenverhältnis erzwingen</string>
+    <string name="aspect_ratio_apps_enabled_summary">Erlaubt ausgewählten Lagacy Apps den ganzen Bildschirm zu nutzen</string>
+    <string name="aspect_ratio_apps_list_title">Apps auswählen</string>
+    <string name="aspect_ratio_apps_list_summary">Vollbildschirm für diese Apps erzwingen</string>
+
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Power Button</string>
+    <string name="power_menu_title">Power Menü</string>
+    <string name="power_menu_subtitle">Power Menü anpassen</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_screenshot_summary">Lange drücken zum Starten einer Bildschirmaufnahme</string>
+    <string name="power_menu_airplane_title">Flugzeugmodus</string>
+    <string name="power_menu_lockdown_title">Sperren</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Erweiterter Neustart</string>
+    <string name="advanced_reboot_summary">Wenn das Gerät entsperrt ist, zeigt es im Neustart Menü die Optionen für Neustart, Bootloader und Recovery an</string>
+    <string name="advanced_reboot_title_keyguard">Erweiterter Neustart auf dem Sperrbildschirm</string>
+    <string name="advanced_reboot_summary_keyguard">Aktiviert den Erweiterten Neustart auch auf dem Sperrbildschirm</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Wiedergabesteuerung</string>
+    <string name="volume_rocker_music_controls_summary">Wenn der Bildschirm ausgeschaltet ist können Musik Tracks durch langes Drücken der Lauter und Leiser Tasten geskippt werden</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Wert: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Standard</string>
+    <string name="custom_seekbar_default_value_to_set">Standardwert: <xliff:g id="v">%s</xliff:g>\nLange drücken zum Auswählen</string>
+    <string name="custom_seekbar_default_value_is_set">Standardwert wurde gesetzt</string>
+
+    <!-- Network traffic -->
+    <string name="traffic_title">Datenverkehrsanzeige</string>
+    <string name="traffic_title_summary">Anpassung der Datenverkehrsanzeige</string>
+    <string name="network_traffic_title">Datenverkehr</string>
+    <string name="network_traffic_type">Netzwerk Aktivitätstyp auswählen</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink und Downlink</string>
+    <string name="network_traffic_state_title">Zeige Datenverkehr in der Statusleiste</string>
+    <string name="network_traffic_autohide_threshold_title">Datenverkehr erst ab einem bestimmten Wert anzeigen (KB/s)</string>
+    <string name="network_traffic_hidearrow">Pfeile ausblenden</string>
+    <string name="network_traffic_hidearrow_summary">Blendet die Pfeile der Datenverkehrsanzeige aus</string>
+
+    <string name="qs_brightness_position_bottom_title">Helligkeitsschieberegler unten</string>
+    <string name="qs_brightness_position_bottom_summary">Zeigt den Helligkeitsschieberegler auf der Unterseite der Schnelleinstellungen</string>
+
+</resources>
