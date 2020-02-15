@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2018 ExtendedUI
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Categories -->
+    <string name="statusbar_category">状态栏</string>
+    <string name="lockscreen_category">锁屏界面</string>
+    <string name="uituner_category">UI调谐器</string>
+    <string name="notifications_category">导航栏</string>
+    <string name="navigation_category">导航栏 &amp; 按钮</string>
+    <string name="about_category">关于</string>
+
+    <!-- Sub categories -->
+    <string name="statusbar_icons_category">图标</string>
+    <string name="statusbar_gestures_category">手势</string>
+    <string name="network_traffic_indicator_category">网络指示器</string>
+    <string name="qs_category">快速设置</string>
+    <string name="interface_category">界面</string>
+    <string name="fod_category">指纹显示</string>
+    <string name="navbar_category">导航栏</string>
+    <string name="buttons_category">按钮</string>
+    <string name="links_category">链接</string>
+    <string name="devs_category">设备</string>
+    <string name="maintainers_category">维护者</string>
+
+    <!-- About section -->
+    <string name="downloads_title">下载</string>
+    <string name="downloads_summary">找到所有官方支持设备的最新版本的地方</string>
+    <string name="telegram_channel">新闻频道</string>
+    <string name="telegram_channel_summary">Telegram频道，您可以在其中找到有关ROM的变更日志，新功能和一般的新闻</string>
+    <string name="telegram_chat">支持聊天</string>
+    <string name="telegram_chat_summary">我们为此ROM提供支持的Telegram聊天</string>
+    <string name="donation_link">捐赠</string>
+    <string name="donation_link_summary">如果你喜欢这个ROM并且想为我们买一杯咖啡</string>
+    
+    <!-- App Title -->
+    <string name="config_center_title">配置中心</string>
+
+    <!-- Status bar tuner-->
+    
+    <string name="statusbar_title">图标</string>
+    <string name="status_bar_items_summary">添加或移除状态栏图标</string>
+
+    <!-- Nav bar tuner-->
+    <string name="navigation_title">导航栏</string>
+    <string name="navigation_subtitle">自定义导航栏布局</string>
+    <string name="navbar_invert_layout_title">反转布局</string>
+    <string name="navbar_invert_layout_summary">使用反转布局的导航栏按钮</string>
+    <string name="nav_bar_layout">导航栏布局</string>
+
+    <!-- Gestures -->
+    <string name="gestures_category">手势</string>
+    <string name="double_tap_sleep_lockscreen_title">双击以使设备睡眠</string>
+    <string name="double_tap_sleep_lockscreen_summary">双击锁屏上的任何地方以使设备进入睡眠状态</string>
+    <string name="double_tap_sleep_gesture_title">双击状态栏以使设备睡眠</string>
+    <string name="double_tap_sleep_gesture_summary">双击状态栏以使设备进入睡眠状态</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_tuner_title">锁屏界面下方快捷方式</string>
+    <string name="lockscreen_tuner_summary">自定义锁屏左下和右下的快捷方式</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_time_out_title">超时</string>
+    <string name="heads_up_time_out_summary">浮动通知将会显示 <xliff:g id="number">%d</xliff:g> 秒</string>
+    <string name="heads_up_time_out_2sec">2 秒</string>
+    <string name="heads_up_time_out_4sec">4 秒</string>
+    <string name="heads_up_time_out_5sec">5 秒</string>
+    <string name="heads_up_time_out_6sec">6 秒</string>
+    <string name="heads_up_time_out_8sec">8 秒</string>
+    <string name="heads_up_time_out_10sec">10 秒</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">暂停计时器</string>
+    <string name="heads_up_snooze_summary_one_minute">上滑浮动通知将使该应用程序的浮动通知暂停1分钟</string>
+    <string name="heads_up_snooze_summary">上滑浮动通知将使该应用程序的浮动通知暂停 <xliff:g id="number">%d</xliff:g> 分钟</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 分钟</string>
+    <string name="heads_up_snooze_5min">5 分钟</string>
+    <string name="heads_up_snooze_10min">10 分钟</string>
+    <string name="heads_up_snooze_15min">15 分钟</string>
+    <string name="heads_up_snooze_20min">20 分钟</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">拾色器</string>
+    <string name="press_color_to_apply">点击下方颜色以应用</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">设置</string>
+    <string name="color_default">默认</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="ambient_light_settings_title">息屏光效</string>
+    <string name="pulse_ambient_light_title">边缘灯光</string>
+    <string name="pulse_ambient_light_summary">息屏来通知时点亮屏幕边缘</string>
+    <string name="pulse_ambient_light_color_title">边缘灯光颜色</string>
+
+    <!-- Smart replies -->
+    <string name="hide_smart_replies_title">隐藏智能回复</string>
+    <string name="hide_smart_replies_summary">隐藏浮动通知的智能回复以节省屏幕空间</string>
+
+    <!-- Battery light -->
+    <string name="light_settings_header">通知灯颜色</string>
+    <string name="battery_light_settings">充电指示灯</string>
+    <string name="battery_light_summary">自定义电池指示灯</string>
+    <string name="battery_light_enable">启用</string>
+    <string name="battery_light_allow_on_dnd_title">勿扰模式中启用电池指示灯</string>
+    <string name="battery_light_low_blinking_title">低电量时闪烁</string>
+    <string name="battery_light_cat">充电指示灯颜色</string>
+    <string name="battery_light_low_color">低电量</string>
+    <string name="battery_light_medium_color">中等电量</string>
+    <string name="battery_light_full_color">快满了</string>
+    <string name="battery_light_reallyfull_color">满电量（100%）</string>
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">指纹图案选择器</string>
+    <string name="fod_icon_picker_summary">选择你最喜欢的指纹图案</string>
+
+    <!-- FOD icon use wallpaper color -->
+    <string name="fod_wallpaper_color">指纹图案使用墙纸颜色</string>
+    <string name="fod_wallpaper_color_summary">指纹图案使用调整后的墙纸主色调</string>
+
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">指纹识别动画</string>
+    <string name="fod_recog_animation_summary">读取到指纹时显示动画</string>
+
+    <string name="enable_oneui">OneUI</string>
+    <string name="enable_oneui_summary">在设置操作栏上方显示空白以便于单手操作\n提示：重启设置应用以生效</string>
+
+    <string name="settings_suggestions">仪表盘建议</string>
+    <string name="settings_suggestions_summary">在设置主界面显示AOSP的建议\nNOTE: 提示：重启设置应用以生效</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">指纹验证震动</string>
+    <string name="fprint_sucess_vib_summary">指纹验证成功时震动</string>
+
+    <!-- UI tuner -->
+    <string name="uituner_title">UI调谐器</string>
+    <string name="uituner_subtitle">自定义用户界面</string>
+    <string name="enable_clear_all_button">用一个可爱的小按钮替换清除全部</string>
+    <string name="enable_clear_all_button_summary">在快速设置中显示清除全部通知按钮以替换默认文字</string>
+    <string name="blur_quicksettings">模糊快速设置背景 (beta)</string>
+    <string name="blur_quicksettings_subtitle">快速设置后的背景模糊变暗</string>
+    <string name="new_screenshotui_title">替换截图动画</string>
+    <string name="new_screenshotui_subtitle">在边缘显示进出动画</string>
+    <string name="qs_datausage_title">在快速设置顶部显示流量使用情况</string>
+    <string name="qs_datausage_subtitle">在快速设置的SIM卡上方显示流量使用情况</string>
+
+    <!-- Per App aspect Ratio -->
+    <string name="action_save">保存</string>
+    <string name="aspect_ratio_category_title">旧版应用扩展</string>
+    <string name="aspect_ratio_apps_enabled_title">强制更高的宽高比</string>
+    <string name="aspect_ratio_apps_enabled_summary">允许选定的旧版应用使用全屏显示</string>
+    <string name="aspect_ratio_apps_list_title">选择应用</string>
+    <string name="aspect_ratio_apps_list_summary">强制这些应用全屏显示</string>
+
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">电源键</string>
+    <string name="power_menu_title">电源菜单</string>
+    <string name="power_menu_subtitle">自定义电源菜单</string>
+    <string name="power_menu_screenshot_title">屏幕截图</string>
+    <string name="power_menu_screenshot_summary">长按录像</string>
+    <string name="power_menu_airplane_title">飞行模式</string>
+    <string name="power_menu_lockdown_title">锁定屏幕</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">高级重启</string>
+    <string name="advanced_reboot_summary">解锁时，重启将包括重启到恢复模式和引导模式</string>
+    <string name="advanced_reboot_title_keyguard">锁屏时显示高级重启</string>
+    <string name="advanced_reboot_summary_keyguard">屏幕锁定时仍显示高级重启</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">播放控制</string>
+    <string name="volume_rocker_music_controls_summary">屏幕锁定时，长按音量键切换音乐</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">值: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">默认</string>
+    <string name="custom_seekbar_default_value_to_set">默认值: <xliff:g id="v">%s</xliff:g>\n长按以设定</string>
+    <string name="custom_seekbar_default_value_is_set">默认值已设定</string>
+
+    <!-- Network traffic -->
+    <string name="traffic_title">流量指示器</string>
+    <string name="traffic_title_summary">自定义网络流量指示器</string>
+    <string name="network_traffic_title">网络流量</string>
+    <string name="network_traffic_type">选择网络流量类型</string>
+    <string name="show_network_traffic_up">上传</string>
+    <string name="show_network_traffic_down">下载</string>
+    <string name="show_network_traffic_all">上传和下载</string>
+    <string name="network_traffic_state_title">在状态栏显示网络流量指示器</string>
+    <string name="network_traffic_autohide_threshold_title">自动隐藏网络活动阈值 (KB/s)</string>
+    <string name="network_traffic_hidearrow">隐藏箭头</string>
+    <string name="network_traffic_hidearrow_summary">隐藏网络流量指示器箭头</string>
+
+    <string name="qs_brightness_position_bottom_title">底部亮度滑块</string>
+    <string name="qs_brightness_position_bottom_summary">在快速设置底部显示屏幕亮度滑块</string>
+
+    <string name="notification_sound_vib_screen_on_title">亮屏时的通知提醒</string>
+    <string name="notification_sound_vib_screen_on_summary">在亮屏来通知时仍发出声音和震动</string>
+
+    <string name="media_art_title">媒体封面</string>
+    <string name="media_art_summary">使用播放中的媒体封面替换锁屏背景</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">息屏手电筒</string>
+    <string name="torch_power_button_gesture_none">禁用</string>
+    <string name="torch_power_button_gesture_dt">双击电源键</string>
+    <string name="torch_power_button_gesture_dt_toast">跳转到相机手势已禁用</string>
+    <string name="torch_power_button_gesture_lp">长按电源键以打开手电筒</string>
+
+    <string name="brightness_slider_qs_unexpanded">MIUI风格亮度滑块 (beta)</string>
+    <string name="brightness_slider_qs_unexpanded_summary">在快速设置面板底部显示亮度滑块</string>
+
+</resources>
